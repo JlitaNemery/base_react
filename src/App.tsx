@@ -1,3 +1,4 @@
+import Counter from "./components/Counter";
 import Header from "./components/Header";
 import "./styles/App.scss";
 
@@ -6,7 +7,7 @@ function App() {
     <>
       <Header />
       <div id="content">
-        shiko
+        <Counter />
       </div>
     </>
   );
